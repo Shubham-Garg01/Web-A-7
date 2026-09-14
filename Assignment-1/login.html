@@ -10,9 +10,11 @@
         <input type="text" placeholder="Enter your username or email">
         <br><hr><br>
         <label>Password:</label>
-        <input type="password" placeholder="Enter your password" title="Password must be 8-20 characters long and include both letters and numbers" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
+        <input type="password" placeholder="Enter your password" title="Password must be 8-20 characters long and include both letters and numbers" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" maxlength="20" minlength="8" required>
         <br><hr><br>
-        <button>Submit</button>
+        <button><a href="About.html">Login</a></button>
     </form>
+    <br><hr><br>
+    <a href="registration.html">Don't have an account? Register here</a>
 </body>
 </html>
